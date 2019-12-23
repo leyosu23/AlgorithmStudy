@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC612E03-959E-4502-B9FC-B5425B3C5F12}</ProjectGuid>
+    <ProjectGuid>{2DB3A74E-D390-4F6E-8C4B-2AD55831D630}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmStudy</RootNamespace>
-    <AssemblyName>AlgorithmStudy</AssemblyName>
+    <RootNamespace>threeNumCompare</RootNamespace>
+    <AssemblyName>threeNumCompare</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

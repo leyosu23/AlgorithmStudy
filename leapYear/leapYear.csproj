@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC612E03-959E-4502-B9FC-B5425B3C5F12}</ProjectGuid>
+    <ProjectGuid>{C202C306-FFCB-4375-8717-4AD40B0335C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmStudy</RootNamespace>
-    <AssemblyName>AlgorithmStudy</AssemblyName>
+    <RootNamespace>leapYear</RootNamespace>
+    <AssemblyName>leapYear</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

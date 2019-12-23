@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC612E03-959E-4502-B9FC-B5425B3C5F12}</ProjectGuid>
+    <ProjectGuid>{B6839102-B2C9-479E-8BE9-B396BB5C8CB3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmStudy</RootNamespace>
-    <AssemblyName>AlgorithmStudy</AssemblyName>
+    <RootNamespace>compareNum</RootNamespace>
+    <AssemblyName>compareNum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

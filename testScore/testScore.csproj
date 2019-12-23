@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC612E03-959E-4502-B9FC-B5425B3C5F12}</ProjectGuid>
+    <ProjectGuid>{508E9C7F-E3E5-438E-BA36-DF4294CD3BFE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AlgorithmStudy</RootNamespace>
-    <AssemblyName>AlgorithmStudy</AssemblyName>
+    <RootNamespace>testScore</RootNamespace>
+    <AssemblyName>testScore</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
