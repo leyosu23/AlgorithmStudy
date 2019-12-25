@@ -3,7 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/10817
+/*
+ * Three integer A,B,C will be given in the first row.
+ * eg) 20 30 10
+ * 30 30 10
+ * 
+ * Find the second largest integer
+ */
 namespace threeNum
 {
     class Program

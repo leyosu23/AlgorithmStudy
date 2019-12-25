@@ -3,7 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/2439
+/*
+ * Print astrisks lined to right side.
+ 
+                    *
+                   **
+      5 ->        ***
+                 ****
+                *****
+ */
 namespace asterisk
 {
     class Program

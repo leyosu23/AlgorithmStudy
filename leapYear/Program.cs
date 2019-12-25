@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/2753
+/*
+ * a year given in the first row.
+ * if the year is a reaping year print 1 or if it's not print 0.
+ */
 namespace leapYear
 {
     class Program

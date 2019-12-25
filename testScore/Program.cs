@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/9498
+/*
+ * A test score will be given in the first row (0~100)
+ * print A - F
+ */
 namespace testScore
 {
     class Program

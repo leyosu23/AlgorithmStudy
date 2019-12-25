@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/2742
+/*
+ * Natural number n is given to first row.
+ * Print numbers which equal or less than n.
+ */
 namespace Print1ToN
 {
     class Program

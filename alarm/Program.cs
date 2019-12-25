@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//https://www.acmicpc.net/problem/2884
+/*
+ * Make alram 45 mins before than given time
+ */
 namespace alarm
 {
     class Program
@@ -15,6 +18,25 @@ namespace alarm
             int hour = int.Parse(a[0]);
             int min = int.Parse(a[1]);
 
+
+            int newMin = min - 45;
+
+            if (newMin < 0)
+            {
+                hour -= 1;
+                min = 60 + newMin;
+            }
+            else
+            {
+                min = newMin;
+            }
+
+            if (hour < 0)
+            {
+                hour = 24 + hour;
+            }
+
+            Console.WriteLine(hour + " " + min);
 
             /*
             if (min < 45)
@@ -37,24 +59,6 @@ namespace alarm
             }
             */
 
-            int newMin = min - 45;
-
-            if (newMin < 0)
-            {
-                hour -= 1;
-                min = 60 + newMin;
-            }
-            else
-            {
-                min = newMin;
-            }
-
-            if (hour < 0)
-            {
-                hour = 24 + hour;
-            }
-
-            Console.WriteLine(hour + " " + min);
 
         }
     }
