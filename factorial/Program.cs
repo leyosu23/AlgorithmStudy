@@ -11,7 +11,7 @@ namespace factorial
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(Factorial(n));
+            //Console.WriteLine(Factorial(n));
             Console.WriteLine(Factorial2(n));
         }
 
