@@ -6,10 +6,11 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            Console.WriteLine(Fibonacci(n));
+            long n = long.Parse(Console.ReadLine());
+            Console.WriteLine(Fibonacci2(n));
         }
 
+        #region recursive
         static public int Fibonacci(int n)
         {
             if (n == 1 || n == 2)
@@ -25,12 +26,13 @@ namespace Fibonacci
                 return Fibonacci(n-2) + Fibonacci(n-1);
             }
         }
+        #endregion
         #region loop
-        static public int Fibonacci2(int n)
+        static public long Fibonacci2(long n)
         {
-            int one = 1;
-            int two = 1;
-            int result = -1;
+            long one = 1;
+            long two = 1;
+            long result = -1;
             if (n == 1 || n == 2)
             {
                 return 1;
@@ -51,6 +53,23 @@ namespace Fibonacci
             }
             
             return result;
+        }
+        #endregion
+        #region dynamic programming
+        static long Fibonacci3(long n)
+        {
+            long[] f = new long[n + 1];
+            long i;
+
+            f[0] = 0;
+            f[1] = 1;
+
+            for (i = 2; i <= n; i++)
+            {
+                f[i] = f[i - 1] + f[i - 2];
+            }
+
+            return f[n];
         }
         #endregion
     }

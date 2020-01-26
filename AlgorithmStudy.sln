@@ -99,7 +99,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primeNumber3", "primeNumber
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "recursive", "recursive", "{78B1E4EC-65F2-4CFF-A01D-EC6EA44AEA2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{15AA8049-8161-462E-AE05-A670FF034064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{15AA8049-8161-462E-AE05-A670FF034064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort", "Sort", "{DF51EDC8-CC60-4193-B462-707A96C121E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleInsertionSort", "BubbleSort\BubbleInsertionSort.csproj", "{4C1AFD88-2694-452C-B856-B9119685FFA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +275,10 @@ Global
 		{15AA8049-8161-462E-AE05-A670FF034064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15AA8049-8161-462E-AE05-A670FF034064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15AA8049-8161-462E-AE05-A670FF034064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1AFD88-2694-452C-B856-B9119685FFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1AFD88-2694-452C-B856-B9119685FFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1AFD88-2694-452C-B856-B9119685FFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1AFD88-2694-452C-B856-B9119685FFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -317,6 +325,7 @@ Global
 		{18DAE6E3-D0A8-4FE7-A830-EB4CB49B6012} = {8B82B311-4C12-4444-81A2-9C26805FDE7A}
 		{87BCA69D-82AE-4307-B2BA-81FB9E68FEB0} = {8B82B311-4C12-4444-81A2-9C26805FDE7A}
 		{15AA8049-8161-462E-AE05-A670FF034064} = {78B1E4EC-65F2-4CFF-A01D-EC6EA44AEA2E}
+		{4C1AFD88-2694-452C-B856-B9119685FFA5} = {DF51EDC8-CC60-4193-B462-707A96C121E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A95D348-20BB-49D0-924F-D00C7BFE7F7D}
